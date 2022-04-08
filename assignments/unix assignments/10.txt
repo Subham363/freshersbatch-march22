@@ -1,0 +1,6 @@
+uname=$1
+upass=$2
+
+echo "Your username is $1"
+echo "Your username is $2"
+

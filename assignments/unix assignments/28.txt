@@ -1,0 +1,1 @@
+dialog --menu "choose 1 option" 12 45 25 1 "option 1" 2 "option 2" 3 "option 3" "option 4"

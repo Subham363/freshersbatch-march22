@@ -1,0 +1,22 @@
+gender=$1
+
+function fun1(){
+    arms=2
+    legs=2
+    if [[ $gender == "male" ]]
+    then
+    function male(){
+        echo " male has $arms arms and $legs legs with beard"
+    }
+    male
+    elif [[ $gender == "female" ]]
+    then
+    function female(){
+        echo " female has $arms arms and $legs legs with no beard"
+    }
+    female
+    else
+    echo "unknown input"
+    fi
+}
+fun1

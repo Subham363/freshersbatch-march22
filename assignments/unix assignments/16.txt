@@ -1,0 +1,10 @@
+the txt file should contain
+ironman
+hulk
+spiderman
+hawkeye
+
+the bash file command should be
+
+file="filename.txt"
+cat $file

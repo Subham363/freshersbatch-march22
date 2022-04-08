@@ -1,0 +1,13 @@
+a=10
+b=20
+c=3
+
+var1=`expr $a + $b`
+echo $var1
+
+var2=`expr $a + $b \* $c`
+echo $var2
+
+var2=`expr \( $a + $b \) \* $c`
+echo $var2
+  

@@ -1,0 +1,2 @@
+dialog --title "Information" --msgbox "This is a message. you have entered: $1" 10 25
+clear

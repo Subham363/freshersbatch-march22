@@ -1,0 +1,2 @@
+dialog --title "Information box" --"You passed the parameter: ${1} 20 30 5"
+clear

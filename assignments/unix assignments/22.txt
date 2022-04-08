@@ -1,0 +1,9 @@
+glo_var=1
+
+function loc(){
+    loc_var=2
+}
+
+echo "Before calling function: $glo_var $loc_var"
+loc
+echo "After calling function: $glo_var $loc_var"

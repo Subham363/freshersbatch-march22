@@ -1,0 +1,8 @@
+echo "Enter any number between 1 to 3"
+read num
+if [ $num -ge 1 ] && [ $num -le 3 ]
+then 
+echo "You have entered: $num"
+else
+echo "Yoy failed to follow instructions"
+fi

@@ -1,0 +1,4 @@
+var1="Hello there, How was your day?"    
+var2= "It was good , Thank you."
+echo $var1  
+echo $var2 > /dev/null 

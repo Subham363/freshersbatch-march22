@@ -1,0 +1,4 @@
+var1=10     #creating the first variable and assigning it a value
+var2=subham #creating the second variable and assigning it a value
+echo $var1  #Displaying value of first variable to the console
+echo $var2  #Displaying value of second variable to the console

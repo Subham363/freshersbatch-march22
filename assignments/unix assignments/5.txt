@@ -1,0 +1,6 @@
+var1=10+5
+echo $?  
+rm abc.txt
+echo $?
+var2=10+20
+echo $?  

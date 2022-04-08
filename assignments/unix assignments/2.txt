@@ -1,0 +1,9 @@
+STARTOFSCRIPT= date
+MYUSERNAME="subham"
+MYPASSWORD="subham369"
+ENDOFSCRIPT= date
+
+echo $STARTOFSCRIPT
+echo "My username: $MYUSERNAME"
+echo "My password: $MYPASSWORD"
+echo $ENDOFSCRIPT

@@ -1,0 +1,16 @@
+read $1
+
+echo "enter your age:"
+read age
+
+function showdays(){
+    echo "hello $1"
+    echo "Your age is $age"
+
+    daysinyear=365
+    totaldays=$((daysinyear * age))
+
+    echo "Total number of days you spent on earth is about: $totaldays "
+}
+
+showdays

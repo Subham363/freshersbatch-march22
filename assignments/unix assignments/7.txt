@@ -1,0 +1,4 @@
+TODAYSDATE= date +%s
+echo $TODAYSDATE
+USERFILES = find \home -user subham -ls
+alias TODAY= 'echo date +'%Y-%m-%d''

@@ -1,0 +1,5 @@
+function showtext(){
+    echo " This output is generated from inside the function"
+}
+showtext
+echo " This output is geenrated from outside the function"
