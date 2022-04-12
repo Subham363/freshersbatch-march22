@@ -1,0 +1,25 @@
+from numpy import *
+tableData = array([['apples', 'oranges', 'cherries', 'banana'],
+                   ['Alice', 'Bob', 'Carol', 'David'],
+                   ['dogs', 'cats', 'moose', 'goose']])
+ 
+arrnew=array_split(tableData,4,axis=1)
+
+arr1=[]
+arr2=[]
+for x in arrnew:
+    for i in x:
+        for y in i:
+            arr1.append(y)
+
+val=3
+arr2.append(arr1[0:3])
+while val<(len(arr1)):
+    arr2.append(arr1[val:val+3])
+    val=val+3
+
+print(arr2)    
+
+for l in range(0,4):
+    for m in range(0,3):
+        print(arr2[l][m])

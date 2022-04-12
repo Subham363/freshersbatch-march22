@@ -1,2 +1,16 @@
-dialog --title "Information box" --"You passed the parameter: ${1} 20 30 5"
-clear
+function Dispmsg
+
+{
+
+echo "message to dislay"
+read mesg
+
+if [[ "$mesg" == "shutdown" ]]
+then
+   echo "Are you sure to shutdowm"
+else
+   dialog --title "Hello" --msgbox "$mesg" 6 20
+fi
+}
+
+Dispmsg

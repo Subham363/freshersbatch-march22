@@ -1,1 +1,13 @@
-dialog --menu "choose 1 option" 12 45 25 1 "option 1" 2 "option 2" 3 "option 3" "option 4"
+echo " choose a car  $car"
+if [[ "$car" == "bmw" ]]
+then
+  echo  "Its a BMW"
+elif [[ "$car" == "audi" ]]
+then
+  echo "Its an audi"
+elif [[ "$choice" == "ferrari" ]]
+then
+  echo "Its a ferrari"
+else
+  echo "Choose Other car"
+fi

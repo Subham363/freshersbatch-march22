@@ -1,0 +1,20 @@
+1.Search online for the Python documentation for the len() function. It will be on a web page titled “Built-in Functions.” Skim the list of other functions Python has, look up what the round() function does, and experiment with it in the interactive shell.
+
+
+
+Look up the round() and abs() functions on the Internet, and find out what they do. Experiment with them in the interactive shell.
+
+
+
+solution:-
+
+The round() function returns a floating point number that is a rounded version of the specified number, with the specified number of decimals.
+x = round(5.76543, 2)
+>>5.76
+
+
+The abs() function returns the absolute value of the specified number.
+x = abs(-7.25)
+>>7.25
+
+

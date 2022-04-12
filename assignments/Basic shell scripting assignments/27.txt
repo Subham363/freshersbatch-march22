@@ -1,0 +1,18 @@
+#!/bin/bash
+dialog --inputbox \
+
+"What is your name?" 0 0 2> /tmp/inputbox.tmp.$$
+
+val=$?
+
+name=`cat /tmp/inputbox.tmp.$$`
+
+rm -f /tmp/inputbox.tmp.$$
+
+case $val in
+0)
+echo "Your username is '$name'";;
+1)
+echo "Cancel pressed.";;
+
+esac
