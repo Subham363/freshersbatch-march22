@@ -1,0 +1,12 @@
+Create a list of strings. Sort them alphabetically. Sort them by length. Sort them by length in descending order.
+
+solution:-
+list= ['hill' , 'hello', 'cat', 'his', 'where', 'fridge'];
+list=list.sort();
+println("sorted alphabetically: "+ list);
+
+list=list.sort(key=len);
+println("sorted by length: "+ list);
+
+list=list.sort(key=len, reverse=True);
+println("sorted by length: "+ list);

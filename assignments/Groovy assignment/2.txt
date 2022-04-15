@@ -1,0 +1,39 @@
+2. Stringsa)How many characters are in the string "Hello, Groovy!"?b)Define a string variable containing a name. Print a hello statement with your name using string concatenation, then using a Groovy string.c)Demonstrate that "racecar" is a palindrome by comparing it to its reverse. Do the same with "Bob", removing case sensitivity first.d)Define a string variable containing the sentence, "Hello, World. How are you?". Split the sentence into an array using the split method. Count the number of words. Do the same using the tokenize method.e)Using the same sentence, use array notation (square brackets) to print the substring "World".f)f. Use array notation to print the last word, but reversed.
+
+
+
+solution:-
+
+str1= "Hello, Groovy!"
+len = str1.length();
+println("length of this string is " + len)
+
+
+name = "Subham";
+println("Hello "+ name);
+
+
+str2="Racecar"
+str2=str2.toLowerCase();
+str2rev=str2.reverse();
+if(str2==str2rev) {
+	println(str2 +" is a palindrome");
+}
+
+
+str3="Bob"
+str3=str3.toLowerCase();
+str3rev=str3.reverse();
+if(str3==str3rev) {
+	println(str3 +" is a palindrome");
+}
+
+
+str4= "Hello, World. How are you?";
+str4=str4.split();
+str4len=str4.length;
+println("the total number of words are "+str4len);
+
+println(str4[1]);
+
+println(str4[-1]);
